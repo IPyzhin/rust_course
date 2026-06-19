@@ -1,10 +1,47 @@
+/// Utilities module.
 mod utils {
+    /// Returns the sum of two integers.
+    ///
+    /// # Arguments
+    ///
+    /// * `a` - The first integer.
+    /// * `b` - The second integer.
+    ///
+    /// # Example
+    /// ```
+    /// let sum = utils::sum(4, 5);
+    /// assert_eq!(sum, 9);
+    /// ```
     pub fn sum(a: i32, b: i32) -> i32 {
         a + b
     }
+    /// Returns the subtact of two floats.
+     ///
+    /// # Arguments
+    ///
+    /// * `a` - The first float.
+    /// * `b` - The second float.
+    ///
+    /// # Example
+    /// ```
+    /// let sub = utils::subtract(6f64, 3f64);
+    /// assert_eq!(subtract, 3f64);
+    /// ```
     pub fn subtract(a: f64, b: f64) -> f64 {
         a - b
     }
+    /// Returns the multiply of two floats.
+     ///
+    /// # Arguments
+    ///
+    /// * `a` - The first float.
+    /// * `b` - The second float.
+    ///
+    /// # Example
+    /// ```
+    /// let mult = utils::multiply(-2f64, -5f64);
+    /// assert_eq!(multiply, 10f64);
+    /// ```
     pub fn multiply(a: f64, b: f64) -> f64 {
         a * b
     }
